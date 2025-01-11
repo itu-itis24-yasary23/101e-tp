@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Prediction Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Word Prediction Game</h1>
+        <div id="score">Score: 0</div>
+        <div id="lives">Lives: ❤️❤️❤️</div>
+        <input type="text" id="prediction" placeholder="Enter a letter or word">
+        <button onclick="submitPrediction()">Submit</button>
+        <button onclick="resetGame()">Reset the Game</button>
+        <div id="message"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
